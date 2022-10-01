@@ -1,5 +1,7 @@
+import BtB4 from "./BaiTapB4/BtB4";
+
 function App() {
-  return <div></div>;
+  return <BtB4 />;
 }
 
 export default App;
