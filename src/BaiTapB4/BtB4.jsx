@@ -28,17 +28,18 @@ export default class BtB4 extends Component {
         <div className="container">
           <div className="row">
             <div className="col-3 align-self-center">
-              <table className="table table-hover">
-                <tbody>
-                  <tr>
-                    <td style={{ width: "100%" }}>Home</td>
-                  </tr>
-                  <tr>
-                    <td style={{ width: "100%" }}>Shop</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div>
+                <nav className="navbar navbar-light bg-light btn btn-light">
+                  <div className="container-fluid">Shop</div>
+                </nav>
+              </div>
+              <div className="my-3">
+                <nav className="navbar navbar-light bg-light btn btn-light">
+                  <div className="container-fluid">Home</div>
+                </nav>
+              </div>
             </div>
+
             {/* ProductList */}
             <div className="col-9">
               <div className="container">
