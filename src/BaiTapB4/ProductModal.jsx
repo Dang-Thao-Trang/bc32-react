@@ -13,17 +13,13 @@ const ProductModal = ({ isOpen, onClose, product }) => {
         tabIndex={-1}
       >
         <div className="modal-dialog " role="document">
-          <div
-            className="modal-content bg-dark container"
-            style={{ width: "80vh" }}
-          >
+          <div className="modal-content bg-dark" style={{ width: "80vh" }}>
             <div className="modal-header row">
               <div className="ms-5">
                 <img
                   src={product.image}
                   alt={product.name}
                   width="50%"
-                  height="250px"
                   className="ms-5"
                 />
               </div>
