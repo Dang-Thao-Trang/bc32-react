@@ -1,0 +1,234 @@
+.background{
+    background-image: url(../../public/video27_dat_ve_phim/bgmovie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    z-index: -999;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.container{
+    position: relative;
+    z-index: 100;
+    padding: 0 10px;
+}
+
+.title{
+    position: relative;
+    z-index: 100;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 4px 3px 1px rgb(0 0 0 / 22%);
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0 1vw 0.9em;
+    padding-top: 40px;
+}
+
+
+.w3ls-reg {
+    width: 58%;
+    padding: 20px;
+    margin: 0 50px;
+    background: rgba(128, 128, 128, 0.34);
+    padding: 3.5vw;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.text-required{
+    color: #ff9800;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
+
+/* InputForm */
+.information-left{
+    width: 60%;
+}
+
+.information-right{
+    width: 40%;
+}
+
+span{color: red;}
+
+#UserName, #NumOfSeat{
+    padding: 1em;
+    width: 80%;
+    background: transparent;
+    border: 1px solid #888686;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.inputForm button{
+    background: #f5f5f5;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.seat_w3ls .smallBox{
+    text-align: left;
+    display: inline-block;
+    margin-right: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.seat_w3ls .smallBox::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.seat_w3ls .greenBox::before {
+    content: "";
+    background: Green;
+}
+
+.seat_w3ls .redBox::before {
+    content: "";
+    background: red;
+}
+
+.seat_w3ls .emptyBox::before {
+    content: "";
+    box-shadow: inset 0px 2px 3px 0px rgb(255 152 0), 0px 1px 0px 0px rgb(255 255 255 );
+    background-color: #fff;
+}
+
+/* BookingInfo */
+.screen{
+    margin: 2em 0;
+    width: 100%;
+    background-color: #ff9800;
+}
+
+.confirm .screen h2{
+    text-align: center;
+    padding: 0.8em;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 8px;
+    word-spacing: 10px;  
+}
+
+.confirm Button{
+    background: #f5f5f5;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.displayBooking{
+    overflow: auto;
+}
+
+.displayBooking table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.displayBooking table tr {
+    background: #fff;
+    padding: 10px;
+}
+
+.displayBooking table td{
+    padding: 10px;
+    color: green;
+    font-size: 18px;
+    font-weight: 800;
+    width: 100px;
+}
+
+.copy-write p{
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.7;
+    padding: 0 1em;;
+}
+
+
+/* Ghe */
+
+.ghe {
+    border: 3px solid orange;
+    background-color: #fff;
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    font-size: 14px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+  }
+  
+  .btnGhe {
+      background-color: transparent;
+      text-align: center;
+      position: relative;
+      display: block;
+      border: none;
+      width: 30px;
+      height: 28px;
+    } 
+  
+  .gheDaDat {
+    color: black;
+    border: 2px solid black;
+    background-color: yellow;
+    cursor:not-allowed;
+  }
+  
+  .gheDangChon {
+    background: rgb(109, 238, 109);
+    border: 2px solid white;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  input[type=checkbox] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -2px;
+    left: -2px;
+    background-color: transparent;
+  }
